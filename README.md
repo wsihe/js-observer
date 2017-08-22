@@ -1,18 +1,19 @@
-# jsonob
-实现对普通对象的变化检测，MVVM模式中的 observer
+## js-observer
 
-1、clone 项目
+> JavaScript实现MVVM之监听一个对象的变化
 
-git clone https://github.com/HcySunYang/jsonob.git
 
-2、安装依赖
+### 运行
+
+```
+https://github.com/wsihe/js-observer.git
 
 npm install
 
-3、构建项目
-
 npm run build
 
-4、运行
+npm run dev
 
-使用浏览器打开 test/index.html
+```
+
+用浏览器打开 index.html
