@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>observer</title>
+</head>
+<body>
+  <script src="../dist/Observer.js"></script>
+  <script>
+    var Observer = Observer.Observer;
+
+    var data = {
+      user: {
+        name: "xiaohe",
+        age: "18"
+      },
+      address: {
+        city: "gz"
+      }
+    };
+
+    var app = new Observer(data);
+
+    data.user.age = '19';
+
+  </script>
+</body>
+</html>
